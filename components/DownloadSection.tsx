@@ -40,7 +40,7 @@ const downloadOptions: DownloadOption[] = [
     color: 'from-orange-500 to-red-500',
     description: 'Ubuntu, Debian, Fedora',
     downloadUrl:
-      'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-linux-x64.tar.gz',
+      'https://github.com/satyam-gurjar/AI_Assistant/actions/runs/21761103951/artifacts/5410221717',
   },
 
 
