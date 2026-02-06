@@ -21,7 +21,7 @@ const downloadOptions: DownloadOption[] = [
     icon: <Monitor size={40} />,
     color: 'from-blue-500 to-blue-700',
     description: 'Windows 10/11 (64-bit)',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/actions/runs/21748571746/artifacts/5404848418',
+    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-Setup-Windows-x64.exe',
   },
   {
     os: 'macOS',
@@ -29,7 +29,7 @@ const downloadOptions: DownloadOption[] = [
     icon: <Apple size={40} />,
     color: 'from-gray-500 to-gray-700',
     description: 'macOS 10.15 or later',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/actions/runs/21748571746/artifacts/5404838484',
+    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-macOS-x64.dmg',
   },
   {
     os: 'Linux',
@@ -37,7 +37,7 @@ const downloadOptions: DownloadOption[] = [
     icon: <Monitor size={40} />,
     color: 'from-orange-500 to-red-500',
     description: 'Ubuntu, Debian, Fedora',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/actions/runs/21748571746/artifacts/5404841421',
+    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-Linux-x64.AppImage',
   },
 ]
 
@@ -145,12 +145,6 @@ export default function DownloadSection() {
   useEffect(() => {
     setDetectedOS(detectOS())
   }, [])
-
-  useEffect(() => {
-    if (isInView) {
-      controls.start('visible')
-    }
-  }, [isInView, controls])
 
   return (
     <section id="download" className="relative py-32 overflow-hidden">
