@@ -40,11 +40,10 @@ const downloadOptions: DownloadOption[] = [
     color: 'from-orange-500 to-red-500',
     description: 'Ubuntu, Debian, Fedora',
     downloadUrl:
-      'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.7/AIAssistant-linux-x64.tar.gz',
+      'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-linux-x64.tar.gz',
   },
+];
 
-
-]
 
 function DownloadCard({ option, index, isDetected }: { option: DownloadOption; index: number; isDetected: boolean }) {
   const ref = useRef(null)
