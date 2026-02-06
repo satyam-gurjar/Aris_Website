@@ -37,7 +37,7 @@ const downloadOptions: DownloadOption[] = [
     icon: <Monitor size={40} />,
     color: 'from-orange-500 to-red-500',
     description: 'Ubuntu, Debian, Fedora',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.0/AIAssistant-linux-x64.tar.gz',
+    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.2/AIAssistant-linux-x64.tar.gz',
   },
 ]
 
