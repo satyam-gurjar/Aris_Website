@@ -21,7 +21,8 @@ const downloadOptions: DownloadOption[] = [
     icon: <Monitor size={40} />,
     color: 'from-blue-500 to-blue-700',
     description: 'Windows 10/11 (64-bit)',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.2/AIAssistant-windows-x64.zip',
+    downloadUrl:
+      'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-windows-x64.zip',
   },
   {
     os: 'macOS',
@@ -29,7 +30,8 @@ const downloadOptions: DownloadOption[] = [
     icon: <Apple size={40} />,
     color: 'from-gray-500 to-gray-700',
     description: 'macOS 10.15 or later',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.2/AIAssistant-macos-x64.zip',
+    downloadUrl:
+      'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-macos-x64.zip',
   },
   {
     os: 'Linux',
@@ -37,8 +39,11 @@ const downloadOptions: DownloadOption[] = [
     icon: <Monitor size={40} />,
     color: 'from-orange-500 to-red-500',
     description: 'Ubuntu, Debian, Fedora',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.2/AIAssistant-linux-x64.tar.gz',
+    downloadUrl:
+      'https://github.com/satyam-gurjar/AI_Assistant/releases/latest/download/AIAssistant-linux-x64.tar.gz',
   },
+
+
 ]
 
 function DownloadCard({ option, index, isDetected }: { option: DownloadOption; index: number; isDetected: boolean }) {
