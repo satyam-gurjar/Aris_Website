@@ -21,7 +21,7 @@ const downloadOptions: DownloadOption[] = [
     icon: <Monitor size={40} />,
     color: 'from-blue-500 to-blue-700',
     description: 'Windows 10/11 (64-bit)',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.0/AIAssistant-windows-x64.zip',
+    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.2/AIAssistant-windows-x64.zip',
   },
   {
     os: 'macOS',
@@ -29,7 +29,7 @@ const downloadOptions: DownloadOption[] = [
     icon: <Apple size={40} />,
     color: 'from-gray-500 to-gray-700',
     description: 'macOS 10.15 or later',
-    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.0/AIAssistant-macos-x64.zip',
+    downloadUrl: 'https://github.com/satyam-gurjar/AI_Assistant/releases/download/v1.0.2/AIAssistant-macos-x64.zip',
   },
   {
     os: 'Linux',
