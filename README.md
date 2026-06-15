@@ -107,7 +107,7 @@ git push -u origin main
 └── railway.json            # Railway config
 ```
 
-## 🎨 Tech Stack
+## 🎨 Tech Stack 
 
 - **Next.js 14** - React framework
 - **TypeScript** - Type safety
